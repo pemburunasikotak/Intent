@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_ViewLayout2_Nama"
+            android:layout_width="150dp"
+            android:text="Nama"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/TViewLayout3_Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_ViewLayout2_Nim"
+            android:layout_width="150dp"
+            android:text="NIM"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/TVViewLayout3_Nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_ViewLayout2_Jurusan"
+            android:layout_width="150dp"
+            android:text="Jurusan"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/TViewLayout3_Jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:text="" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_ViewLayout3_Univ"
+            android:layout_width="150dp"
+            android:text="Univ"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/TViewLayout3_univ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_layout3_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="Masuk">
+
+        </Button>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

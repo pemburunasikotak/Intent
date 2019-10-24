@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntentPart7</string>
+
+        <string-array name="spiner_jurusan">
+            <item>Teknik Informatika</item>
+            <item>Sistem Informasi</item>
+            <item>Teknik Komputer</item>
+            <item>Komputer Akuntasi</item>
+            <item>Menejemen Informasi</item>
+
+        </string-array>
+</resources>
